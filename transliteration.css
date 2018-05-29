@@ -1,0 +1,22 @@
+.tr-popup {
+    background: white;
+    box-shadow: 0.3em 0.3em 0.5em grey;
+    z-index: 999;
+    position: absolute;
+    padding: 0.5em;
+    .edit {
+	font-family: 'Courier New';
+	color: grey;
+	border-bottom: 1px solid black;
+    }
+    .edit:after {
+	content: "|";
+	color:   rgb(52, 152, 219);
+    }
+    .hlt {
+	background: rgb(241, 241, 241);
+    }
+    .can {
+	padding: 0.3em;
+    }
+}
